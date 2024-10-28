@@ -1,3 +1,4 @@
 services:
-  image: registry.supertokens.io/supertokens/supertokens-postgresql:9.2.3
-  port: 3569:3567
+  supertokens: 
+    image: registry.supertokens.io/supertokens/supertokens-postgresql:9.2.3
+    port: 3569:3567
